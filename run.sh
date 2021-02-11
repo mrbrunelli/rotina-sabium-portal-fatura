@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo "---> Instalando pacotes..."
+
+go get ./...
+
 echo "---> Gerando build..."
 
 go build main.go
