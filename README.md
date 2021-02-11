@@ -2,6 +2,10 @@
 > Busca faturas que foram baixadas no Sabium e muda o status para **Faturado** no Portal Fatura.
 
 ### Como executar
+> O projeto deve estar na Gopath
+```sh
+cd $GOPATH/src/github.com/mrbrunelli/rotina-portal-fatura
+```
 > Execute o script.
 ```shell
 $ ./run.sh
